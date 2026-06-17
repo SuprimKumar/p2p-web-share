@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState, useCallback } from "react";
 import { io } from "socket.io-client";
 
-const SERVER = import.meta.env.VITE_SERVER_URL || "http://localhost:4000";
+const SERVER = import.meta.env.VITE_SERVER_URL || "https://p2p-web-share-hreo.onrender.com";
 const CHUNK_SIZE = 64 * 1024; // 64 KB
 
 function formatBytes(b) {
